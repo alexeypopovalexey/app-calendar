@@ -1,0 +1,11 @@
+.daylist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.daylist > * {
+  width: 14%;
+}
